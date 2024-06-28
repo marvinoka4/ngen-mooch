@@ -1,0 +1,197 @@
+@font-face {
+    font-family: "Aeonik-Regular";
+    src: url("/assets/fonts/Aeonik-Regular.woff2") format('woff2'),
+         url("/assets/fonts/Aeonik-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Aeonik-Bold";
+    src: url("/assets/fonts/Aeonik-Bold.woff2") format('woff2'),
+         url("/assets/fonts/Aeonik-Bold.woff") format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "RocGrotesk-Regular";
+    src: url("/assets/fonts/RocGrotesk-Regular.woff2") format('woff2'),
+         url("/assets/fonts/RocGrotesk-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "RocGrotesk-Medium";
+    src: url("/assets/fonts/RocGrotesk-Medium.woff2") format('woff2'),
+         url("/assets/fonts/RocGrotesk-Medium.woff") format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Aeonik-Regular", sans-serif;
+}
+
+p {
+    font-family: "RocGrotesk-Regular", sans-serif;
+    font-size: 14px;
+}
+
+a {
+    font-family: "RocGrotesk-Medium", sans-serif;
+}
+
+button {
+    font-family: "RocGrotesk-Medium", sans-serif;
+    border-radius: 8px !important;
+}
+
+.nav-text li a {
+    font-family: "RocGrotesk-Regular", sans-serif;
+    font-size: 14px;
+    color: #000000;
+    padding: 0 20px 10px 20px;
+}
+
+.h-hero {
+    font-size: 60px;
+}
+
+.p-hero {
+    font-size: 16px;
+}
+
+.h-section {
+    font-size: 35px;
+}
+
+.section-title {
+    font-family: "RocGrotesk-Regular", sans-serif;
+    font-size: 12px;
+}
+
+.bg-partners {
+	background-color: #151F32;
+    color: #ffffff;
+}
+
+.bg-customers {
+	background-color: #0D4E53;
+    color: #ffffff;
+}
+
+.bg-contact {
+	background-color: #151F32;
+    color: #ffffff;
+}
+
+.contact-form {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "RocGrotesk-Regular", sans-serif;
+
+}
+
+.contact-form input {
+    outline: 0;
+    padding: 10px;
+    font-size: 14px;
+    border-width: 0 0 1px;
+    color: rgba(255, 255, 255);
+    background-clip: padding-box;
+    background-color: transparent;
+    -webkit-background-clip: padding-box;
+    border-color: rgba(255, 255, 255, .2);
+}
+
+.contact-form input:focus {
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    box-shadow: none;
+    border-width: 0 0 1px;
+    background-clip: padding-box;
+    background-color: transparent;
+    -webkit-background-clip: padding-box;
+    border-color: rgba(255, 255, 255);
+}
+
+.contact-form select {
+    outline:0;
+    appearance:none;
+    box-shadow:none;
+    -ms-appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    border-width: 0 0 1px;
+    color: rgba(255, 255, 255);
+    background: transparent none;
+    padding: 10px;
+    font-size: 14px;
+    cursor:pointer;
+    border-color: rgba(255, 255, 255, .2);
+    font-family: "RocGrotesk-Regular", sans-serif;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+/*.select-industry {*/
+/*    width: 18em;*/
+/*    height: 3em;*/
+/*    display: flex;*/
+/*    line-height: 3;*/
+/*    overflow: hidden;*/
+/*    position: relative;*/
+/*    background: transparent;*/
+/*}*/
+
+/*.select-industry::after {*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    color: #fff;*/
+/*    padding: 0;*/
+/*    cursor:pointer;*/
+/*    position: absolute;*/
+/*    content:  '\00a0\002B';*/
+/*    background: transparent;*/
+/*    transition:.25s all ease;*/
+/*}*/
+
+.social-icons a {
+    color: #000000;
+    padding: 25px 10px 10px 0;
+}
+
+.contact-links {
+    margin-bottom: 0;
+}
+
+.contact-links a {
+    color: #000000;
+    padding: 0;
+    font-family: "RocGrotesk-Regular", sans-serif;
+}
+
+.p-y-section {
+    padding: 50px 0;
+}
+
+.p-y-30 {
+    padding: 30px 0;
+}
+
+.p-y-10 {
+    padding: 10px 0;
+}
+
+.p-x-155 {
+    padding: 0 155px;
+}
