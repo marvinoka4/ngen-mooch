@@ -322,25 +322,3 @@ select::-ms-expand {
     text-align: left;
     color: #ffffff;
 }
-
-@media only screen and (min-width: 600px) {
-    .h-hero {
-        font-size: 60px;
-        line-height: 60px;
-        padding-bottom: 30px;
-    }
-
-    .p-x-155 {
-        padding: 0 10px;
-    }
-
-    .h-section {
-        font-size: 30px;
-        line-height: 30px;
-    }
-
-    .h-slider {
-        font-size: 20px;
-        line-height: 20px;
-    }
-}
