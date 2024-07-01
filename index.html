@@ -2,29 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <title>nGeneration</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
     <main>
-        <header class="grid-container">
+        <header class="grid-container full">
             <nav class="grid-x align-middle align-center p-y-30">
-                <div class="text-center medium-2 small-8 cell">
+                <div class="text-center medium-2 small-2 cell">
                     <a href="/" >
-                        <img src="/assets/logos/nGeneration-logo.svg" width="37" alt="nGeneration"/>
+                        <img src="/assets/logos/nGeneration-logo.svg" width="60" alt="nGeneration"/>
                     </a>
                 </div>
 
-                <ul class="menu align-center medium-8 small-4 cell nav-text">
-                    <li><a href="#">Why nGeneration?</a></li>
-                    <li><a href="#">Industries</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Additional Services</a></li>
-                </ul>
+                <div class="medium-8 small-8 cell">
+                    <ul class="menu nav-text align-middle align-center">
+                        <li><a href="#">Why nGeneration?</a></li>
+                        <li><a href="#">Industries</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Additional Services</a></li>
+                    </ul>
+                </div>
 
-                <div class="text-center medium-2 small-8 cell">
+                <div class="text-center medium-2 small-2 cell">
                     <a href="draft.html" class="primary button">Contact</a>
                 </div>
             </nav>
@@ -53,24 +56,47 @@
             </div>
         </section>
 
-        <section class="grid-container">
-            <div class="grid-x align-center align-middle p-y-section">
-                <div class="cell medium-12">
-                    <p class="section-title">Features</p>
-                </div>
-                <div class="grid-x align-middle">
-                    <div class="cell medium-9 text-left">
-                        <h2 class="h-section">Why Choose nGeneration?</h2>
-                        <p>By choosing nGeneration, you are partnering with a company that prioritises your business’s success through innovative solutions, exceptional reliability, and unparalleled customer service. Let us help you streamline your operations and achieve your goals with our expert field management services.</p>
+        <section class="grid-container full p-y-section">
+            <div class="grid-container">
+                <div class="grid-x align-center align-middle">
+                    <div class="cell medium-12">
+                        <p class="section-title">Features</p>
                     </div>
+                    <div class="grid-x align-middle">
+                        <div class="cell medium-9 small-12 text-center medium-text-left">
+                            <h2 class="h-section">Why Choose nGeneration?</h2>
+                            <p class="p-section">By choosing nGeneration, you are partnering with a company that prioritises your business’s success through innovative solutions, exceptional reliability, and unparalleled customer service. Let us help you streamline your operations and achieve your goals with our expert field management services.</p>
+                        </div>
 
-                    <div class="cell medium-2 medium-offset-1 text-right">
-                        <a href="#" class="primary button">Contact</a>
+                        <div class="cell medium-2 medium-offset-1 small-12 text-center medium-text-right">
+                            <a href="#" class="primary button">Contact</a>
+                        </div>
                     </div>
-
                 </div>
-                <div class="cell medium-12 text-center">
-                    <p>Slider</p>
+            </div>
+            <div class="grid-x align-right align-center-middle">
+                <div class="cell medium-2 text-center flex-container flex-dir-column" style="align-items: center">
+                    <img class="p-y-10" src="/assets/images/slider-right-arrow.svg" width="25" alt="slider"/>
+                    <img class="p-y-10" src="/assets/images/slider-left-arrow.svg" width="25" alt="slider"/>
+                </div>
+                <div class="cell medium-10 p-y-20">
+                    <div class="grid-x">
+                        <div class="cell medium-4 p-x-10 flex-container flex-dir-column">
+                            <img src="/assets/images/slider-1.jpg" alt="Slider Image"/>
+                            <h3 class="h-slider">Vendor Independent</h3>
+                            <p class="p-slider">Our vendor-independent approach allows us to manage and maintain any type of hardware, giving you the flexibility to choose the best equipment for your needs without being locked into a specific brand.</p>
+                        </div>
+                        <div class="cell medium-4 p-x-10 flex-container flex-dir-column">
+                            <img src="/assets/images/slider-2.jpg" alt="Slider Image"/>
+                            <h3 class="h-slider">Operational 365 Days</h3>
+                            <p class="p-slider">We understand that your business never stops, and neither do we. Our team is available every day of the year, including holidays, to ensure that you receive continuous support.</p>
+                        </div>
+                        <div class="cell medium-4 p-x-10 flex-container flex-dir-column">
+                            <img src="/assets/images/slider-3.jpg" alt="Slider Image"/>
+                            <h3 class="h-slider">98%+ SLA Adherence</h3>
+                            <p class="p-slider">Service Level Agreements (SLAs) are crucial for maintaining trust and reliability. At nGeneration, we pride ourselves on our 98%+ SLA adherence rate, demonstrating our commitment to meeting and exceeding your expectations.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="cell medium-12 text-center">
                     <img src="/assets/images/horizontal-pagination.svg" width="100" alt="pagination"/>
@@ -78,23 +104,47 @@
             </div>
         </section>
 
-        <section class="grid-container full bg-partners">
+        <section class="grid-container full bg-partners p-y-section">
             <div class="grid-container">
-                <div class="grid-x align-center align-middle p-y-section">
+                <div class="grid-x align-center align-middle">
                     <div class="cell medium-12">
                         <p class="section-title">Partners</p>
                     </div>
                     <div class="grid-x align-center-middle">
-                        <div class="cell medium-10 text-center">
-                            <h2 class="h-section">Trusted by Leading Brands World wide</h2>
-                            <p>At nGeneration, we are proud to be the trusted partner of some of the world’s most renowned and respected brands. Our commitment to excellence, reliability, and innovation has earned us the confidence of top-tier companies across various industries.</p>
+                        <div class="cell medium-11 text-center">
+                            <h2 class="h-section">Trusted by Leading Brands Worldwide</h2>
+                        </div>
+                        <div class="cell medium-11 text-center p-y-20">
+                            <p class="p-section">At nGeneration, we are proud to be the trusted partner of some of the world’s most renowned and respected brands. Our commitment to excellence, reliability, and innovation has earned us the confidence of top-tier companies across various industries.</p>
                         </div>
                     </div>
-                    <div class="cell medium-12 text-center">
-                        <p>Brands</p>
-                    </div>
-                    <div class="cell medium-2 text-center">
-                        <a href="#" class="primary button">Contact</a>
+                </div>
+            </div>
+            <div class="grid-x align-center align-middle">
+                <div class="cell medium-10">
+                    <div class="grid-x align-center align-middle">
+                        <div class="cell medium-2 text-center">
+                            <a href="#"><img src="/assets/logos/punch.svg" width="250" alt="Punch"/></a>
+                        </div>
+                        <div class="cell medium-2 text-center">
+                            <a href="#"><img src="/assets/logos/butlin.svg" width="250" alt="Butlin's"/></a>
+                        </div>
+                        <div class="cell medium-2 text-center">
+                            <a href="#"><img src="/assets/logos/nec.svg" width="250" alt="NEC Group"/></a>
+                        </div>
+                        <div class="cell medium-2 text-center">
+                            <a href="#"><img src="/assets/logos/guestline.svg" width="250" alt="GuestLine"/></a>
+                        </div>
+                        <div class="cell medium-2 text-center">
+                            <a href="#"><img src="/assets/logos/pandora.svg" width="250" alt="Pandora"/></a>
+                        </div>
+                        <div class="cell medium-2 text-center">
+                            <a href="#"><img src="/assets/logos/nero.svg" width="250" alt="Nero"/></a>
+                        </div>
+
+                        <div class="cell medium-6 text-center">
+                            <a href="#" class="primary button">Contact</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -108,65 +158,144 @@
                 <div class="grid-x align-middle">
                     <div class="cell medium-6 text-left">
                         <h2 class="h-section">Solutions tailored to meet the unique needs of various industries</h2>
-                        <p>At nGeneration, we provide comprehensive field management solutions tailored to meet the unique needs of various industries. Our expertise spans across multiple sectors, ensuring that businesses of all types benefit from our reliable and innovative services.</p>
+                        <p class="p-section p-y-20">At nGeneration, we provide comprehensive field management solutions tailored to meet the unique needs of various industries. Our expertise spans across multiple sectors, ensuring that businesses of all types benefit from our reliable and innovative services.</p>
 
                         <a href="#" class="primary button">Contact</a>
                     </div>
 
-                    <div class="cell medium-5 text-right">
-                        <p>Images</p>
-                    </div>
+                    <div class="cell medium-6 text-right">
 
-                    <div class="cell medium-1 text-center">
-                        <img src="/assets/images/vertical-green-bg-pagination.svg" width="20" alt="pagination"/>
+                        <div class="grid-x align-center-middle">
+                            <div class="cell medium-11">
+                                <div class="swiper mySwiper">
+                                    <div class="swiper-wrapper">
+
+                                        <div class="swiper-slide vertical-image-slider">
+                                            <figure class="vertical-image">
+                                                <img src="/assets/images/slider-7.jpg" alt="" />
+                                                <figcaption class="vertical-image-caption">
+                                                    <h4>Hospitality</h4>
+                                                    <p>In the fast-paced hospitality industry, operational efficiency and seamless service are critical. </p>
+                                                    <p>nGeneration partners with a wide range of hospitality businesses to ensure they deliver exceptional experiences to their customers.</p>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+
+                                        <div class="swiper-slide vertical-image-slider">
+                                            <figure class="vertical-image">
+                                                <img src="/assets/images/slider-7.jpg" alt="" />
+                                                <figcaption class="vertical-image-caption">
+                                                    <h4>Hospitality 2</h4>
+                                                    <p>In the fast-paced hospitality industry, operational efficiency and seamless service are critical. </p>
+                                                    <p>nGeneration partners with a wide range of hospitality businesses to ensure they deliver exceptional experiences to their customers.</p>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+
+                                        <div class="swiper-slide vertical-image-slider">
+                                            <figure class="vertical-image">
+                                                <img src="/assets/images/slider-7.jpg" alt="" />
+                                                <figcaption class="vertical-image-caption">
+                                                    <h4>Hospitality 3</h4>
+                                                    <p>In the fast-paced hospitality industry, operational efficiency and seamless service are critical. </p>
+                                                    <p>nGeneration partners with a wide range of hospitality businesses to ensure they deliver exceptional experiences to their customers.</p>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="medium-1">
+                                <img src="/assets/images/vertical-green-bg-pagination.svg" width="20" alt="pagination"/>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="grid-container full bg-customers">
+        <section class="grid-container full bg-customers p-y-section">
             <div class="grid-container">
-                <div class="grid-x align-center align-middle p-y-section">
+                <div class="grid-x align-center align-middle">
                     <div class="cell medium-12">
                         <p class="section-title">Customers</p>
                     </div>
-                    <div class="cell medium-1">
-                        <img src="/assets/images/horizontal-white-left-arrow.svg" width="30" alt="arrow"/>
-                    </div>
-                    <div class="cell medium-10 text-center">
-                        <h2 class="h-section">Trusted to deliver</h2>
-                        <p>“nGeneration has been a game-changer for our business. Their reliable service and innovative solutions have significantly improved our operational efficiency.</p>
-                        <p>— Kayla James. Operations Manager Tesco</p>
-                    </div>
-                    <div class="cell medium-1">
-                        <img src="/assets/images/horizontal-white-right-arrow.svg" width="30" alt="arrow"/>
-                    </div>
-                    <div class="cell medium-12 text-center">
-                        <img src="/assets/images/horizontal-white-pagination.svg" width="100" alt="pagination"/>
+                    <div class="cell medium-6 text-center p-y-50">
+                        <h2 class="h-section p-b-30">Trusted to deliver</h2>
                     </div>
                 </div>
-
             </div>
+
+            <div class="grid-x align-center-middle">
+                <div class="cell medium-10">
+                    <div class="grid-x align-center-middle">
+                        <div class="cell medium-1 text-left">
+                            <img src="/assets/images/horizontal-white-left-arrow.svg" width="30" alt="arrow"/>
+                        </div>
+
+                        <div class="cell medium-10 text-center">
+                            <p class="p-section p-y-20">“nGeneration has been a game-changer for our business. Their reliable service and innovative solutions have significantly improved our operational efficiency.</p>
+                            <p class="p-b-50">— Kayla James. Operations Manager Tesco</p>
+                        </div>
+
+                        <div class="cell medium-1 text-right">
+                            <img src="/assets/images/horizontal-white-right-arrow.svg" width="30" alt="arrow" class="p-y-50"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-container">
+                <div class="cell medium-12 text-center">
+                    <img src="/assets/images/horizontal-white-pagination.svg" width="100" alt="pagination"/>
+                </div></div>
         </section>
 
-        <section class="grid-container">
-            <div class="grid-x align-center align-middle p-y-section">
-                <div class="cell medium-12">
-                    <p class="section-title">Explore more</p>
-                </div>
-                <div class="grid-x align-middle">
-                    <div class="cell medium-9 text-left">
-                        <h2 class="h-section">Other services</h2>
-                        <p>At nGeneration, our comprehensive range of services goes beyond field management. We offer a variety of solutions designed to optimise your business operations, enhance efficiency, and ensure you stay ahead in a competitive market.</p>
+        <section class="grid-container full p-y-section">
+            <div class="grid-container">
+                <div class="grid-x align-center align-middle">
+                    <div class="cell medium-12">
+                        <p class="section-title">Explore more</p>
                     </div>
+                    <div class="grid-x align-middle">
+                        <div class="cell medium-9 text-left">
+                            <h2 class="h-section">Other services</h2>
+                            <p class="p-section">At nGeneration, our comprehensive range of services goes beyond field management. We offer a variety of solutions designed to optimise your business operations, enhance efficiency, and ensure you stay ahead in a competitive market.</p>
+                        </div>
 
-                    <div class="cell medium-2 medium-offset-1 text-right">
-                        <a href="#" id="cta-nav" class="primary button">Learn more</a>
+                        <div class="cell medium-3 text-right">
+                            <a href="#" id="cta-nav" class="primary button">Learn more</a>
+                        </div>
                     </div>
-
                 </div>
-                <div class="cell medium-12 text-center">
-                    <p>Slider</p>
+            </div>
+            <div class="grid-x align-right align-center-middle">
+                <div class="cell medium-2 text-center flex-container flex-dir-column" style="align-items: center">
+                    <img class="p-y-10" src="/assets/images/slider-right-arrow.svg" width="25" alt="slider"/>
+                    <img class="p-y-10" src="/assets/images/slider-left-arrow.svg" width="25" alt="slider"/>
+                </div>
+                <div class="cell medium-10 p-y-20">
+                    <div class="grid-x">
+                        <div class="cell medium-4 p-x-10 flex-container flex-dir-column">
+                            <img src="/assets/images/slider-4.jpg" alt="Slider Image"/>
+                            <h3 class="h-slider">IT System Deployment</h3>
+                            <p class="p-slider">Proven IT deployment processes guarantee a high-quality IT implementation on time and within budget for business-as-usual or defined projects.</p>
+                        </div>
+                        <div class="cell medium-4 p-x-10 flex-container flex-dir-column">
+                            <img src="/assets/images/slider-5.jpg" alt="Slider Image"/>
+                            <h3 class="h-slider">IT Procurement</h3>
+                            <p class="p-slider">Our direct relationships with many of the world’s largest IT manufacturers provide you with supported pricing and enhanced product life cycle support.</p>
+                        </div>
+                        <div class="cell medium-4 p-x-10 flex-container flex-dir-column">
+                            <img src="/assets/images/slider-6.jpg" alt="Slider Image"/>
+                            <h3 class="h-slider">Retail Control</h3>
+                            <p class="p-slider">More than just stocktaking…Retail Control helps your operators to measure, monitor and grow their business through targeted analysis, action planning, coaching and support.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="cell medium-12 text-center">
                     <img src="/assets/images/horizontal-pagination.svg" width="100" alt="pagination"/>
@@ -180,18 +309,32 @@
                     <div class="cell medium-12">
                         <p class="section-title">Contact</p>
                     </div>
-                    <div class="cell medium-10 text-center">
+                    <div class="cell medium-11 text-center">
                         <h2 class="h-section">Join the nGeneration!</h2>
-                        <p>Ready to transform your field management and operational efficiency? At nGeneration, we’re here to provide the solutions and support your business needs to thrive. Contact us today to learn more about our comprehensive services and how we can help you achieve your goals.</p>
+                        <p class="p-section">Ready to transform your field management and operational efficiency? At nGeneration, we’re here to provide the solutions and support your business needs to thrive. Contact us today to learn more about our comprehensive services and how we can help you achieve your goals.</p>
+                    </div>
+                    <div class="cell medium-8 text-center">
                         <form action="#" class="contact-form">
-                            <input type="text" placeholder="Name/ Company">
-                            <input type="email" placeholder="Email">
-                            <input type="number" placeholder="Phone">
-                            <select name="select-industry" id="select-industry" class="select-industry">
-                                <option selected value="industry">Industry</option>
-                                <option value="ngeneration">nGeneration</option>
-                            </select>
-                            <textarea name="form-message" id="form-message" placeholder="Message"></textarea>
+                            <label>
+                                <input type="text" placeholder="Name/ Company">
+                            </label>
+                            <label>
+                                <input type="email" placeholder="Email">
+                            </label>
+                            <label>
+                                <input type="tel" placeholder="Phone">
+                            </label>
+                            <div class="select-industry-div">
+                                <label for="select-industry">
+                                    <select name="select-industry" id="select-industry" class="select-industry">
+                                        <option selected value="industry">Industry</option>
+                                        <option value="ngeneration">nGeneration</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <label for="form-message">
+                                <textarea name="form-message" id="form-message" placeholder="Message"></textarea>
+                            </label>
 
                             <button type="submit" class="button primary">Send Message</button>
                         </form>
@@ -202,46 +345,52 @@
 
         <footer class="grid-container">
             <div class="grid-x p-y-section">
-                <div class="cell medium-3">
+                <div class="cell medium-1 small-12">
                     <a href="/" >
-                        <img src="/assets/logos/nGeneration-logo.svg" width="32" alt="nGeneration"/>
+                        <img src="/assets/logos/nGeneration-logo.svg" width="60" alt="nGeneration"/>
                     </a>
-                    <div class="grid-x social-icons">
-                        <a href="/"><img src="/assets/logos/instagram.svg" width="12" alt="Instagram"/></a>
-                        <a href="/"><img src="/assets/logos/facebook.svg" width="12" alt="Facebook"/></a>
-                        <a href="/"><img src="/assets/logos/linkedin.svg" width="12" alt="LinkedIn"/></a>
+                    <div class="grid-x social-icons align-left">
+                        <a href="/"><img src="/assets/logos/instagram.svg" width="20" alt="Instagram"/></a>
+                        <a href="/"><img src="/assets/logos/facebook.svg" width="20" alt="Facebook"/></a>
+                        <a href="/"><img src="/assets/logos/linkedin.svg" width="20" alt="LinkedIn"/></a>
                     </div>
                 </div>
-                <ul class="cell medium-3 vertical menu nav-text">
-                    <li><a href="#">Why nGeneration?</a></li>
-                    <li><a href="#">Industries</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Additional Services</a></li>
-                </ul>
-                <ul class="cell medium-3 vertical menu nav-text">
-                    <li><a href="#">IT System Deployment</a></li>
-                    <li><a href="#">Managed IT Services</a></li>
-                    <li><a href="#">IT Asset Management</a></li>
-                    <li><a href="#">Retail Control</a></li>
-                    <li><a href="#">Resourcing</a></li>
-                    <li><a href="#">IT Procurement</a></li>
-                    <li><a href="#">Insights & News</a></li>
-                    <li><a href="#">Career Opportunities</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-                <div class="cell medium-3">
-                    <p>
+                <div class="cell medium-offset-1 medium-2 small-12">
+                    <ul class="vertical menu nav-text">
+                        <li><a href="#">Why nGeneration?</a></li>
+                        <li><a href="#">Industries</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Additional Services</a></li>
+                    </ul>
+                </div>
+                <div class="cell medium-offset-1 medium-3 small-12">
+                    <ul class="vertical menu nav-text">
+                        <li><a href="#">IT System Deployment</a></li>
+                        <li><a href="#">Managed IT Services</a></li>
+                        <li><a href="#">IT Asset Management</a></li>
+                        <li><a href="#">Retail Control</a></li>
+                        <li><a href="#">Resourcing</a></li>
+                        <li><a href="#">IT Procurement</a></li>
+                        <li><a href="#">Insights & News</a></li>
+                        <li><a href="#">Career Opportunities</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="cell medium-offset-1 medium-3 align-right small-12">
+                    <p class="footer-text m-b-20">
                         nGeneration ltd,
                         Vaughan Park, Sedgley Road East
                         Dudley, DY4 7UJ
                     </p>
                     <p class="contact-links"><a href="">+44 (0) 870 77 77 889</a></p>
-                    <p class="contact-links"><a href="">contact@ngeneration.co.uk</a></p>
-                    <p class="p-y-10">Made by mooch</p>
+                    <p class="contact-links m-b-20"><a href="">contact@ngeneration.co.uk</a></p>
+                    <p class="footer-text">Made by mooch</p>
                 </div>
             </div>
         </footer>
     </main>
-    
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 </body>
 </html>
