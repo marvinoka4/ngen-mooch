@@ -6,4 +6,4 @@ $(document).ready(function() {
         grabCursor: true,
     });
 
-}
+});

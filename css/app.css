@@ -252,6 +252,10 @@ select::-ms-expand {
     padding-bottom: 50px;
 }
 
+.p-t-50 {
+    padding-top: 50px;
+}
+
 .p-y-section {
     padding: 100px 0;
 }
