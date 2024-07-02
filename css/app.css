@@ -1,3 +1,10 @@
+body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 @font-face {
     font-family: "Aeonik-Regular";
     src: url("/assets/fonts/Aeonik-Regular.woff2") format('woff2'),
@@ -50,11 +57,11 @@ a {
     line-height: 35px;
 }
 
-button {
+.button {
     font-family: "RocGrotesk-Medium", sans-serif;
     border-radius: 8px !important;
     font-size: 22px !important;
-    line-height: 35px;
+    padding: 0.65em 1.85em !important;
 }
 
 .nav-text li a {
@@ -97,6 +104,7 @@ button {
 .h-slider {
     font-size: 40px;
     line-height: 40px;
+    padding: 20px 0;
 }
 
 .p-slider {
@@ -292,10 +300,21 @@ select::-ms-expand {
     margin-bottom: 20px;
 }
 
+.vertical-pagination {
+    position: absolute;
+    right: -10%;
+    top: 50%;
+}
+
+.vertical-slider-section {
+    position: relative;
+}
+
 .vertical-image-slider {
-    background: #151F32;
     display: flex;
+    position: absolute;
     align-items: center;
+    background: #151F32;
     justify-content: center;
 }
 
@@ -306,7 +325,7 @@ select::-ms-expand {
 
 .vertical-image-slider .vertical-image .vertical-image-caption {
     position: absolute;
-    padding: 30px 30px;
+    padding: 15px 20px;
     text-align: center;
     width: fit-content;
     bottom: 0;
@@ -325,4 +344,190 @@ select::-ms-expand {
     line-height: 25px;
     text-align: left;
     color: #ffffff;
+}
+
+.vertical-image-slider-1 {
+    top: -250px;
+    left: 20px;
+}
+
+.vertical-image-slider-2 {
+    top: -285px;
+    left: 40px;
+    margin-right: 20px;
+}
+
+.vertical-image-slider-3 {
+    top: -315px;
+    left: 60px;
+    margin-right: 45px;
+}
+
+.clicked {
+    top: -250px !important;
+    left: 20px !important;
+    z-index: 10 !important;
+
+}
+
+.not-clicked-1 {
+    top: -285px !important;
+    left: 40px !important;
+    margin-right: 20px !important;
+    z-index: 5 !important;
+}
+
+.not-clicked-2 {
+    top: -315px !important;
+    left: 60px !important;
+    margin-right: 45px !important;
+    z-index: 1 !important;
+}
+
+.slide {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.slide-container::-webkit-scrollbar {
+    display: none;
+}
+
+.slide-content {
+    flex: 0 0 auto;
+    width: 536px;
+    margin-right: 40px;
+}
+
+.dot-pagination {
+    width: 10px;
+    height: 10px;
+    margin: 0 2px;
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #000000;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot-pagination:hover {
+    background-color: #308991;
+    border: 1px solid transparent;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    a {
+        font-size: 16px !important;
+        line-height: 20px;
+    }
+
+    .button {
+        font-size: 16px !important;
+        padding: 0.65em 1.85em !important;
+    }
+
+    nav {
+        display: inline-block !important; /* prevent the nav to hide when resize */
+        position: relative;
+        width: auto;
+        float: right;
+        padding: 5px 0;
+    }
+
+    nav ul {
+        float: left;
+    }
+
+    nav ul li {
+        display: inline-block;
+        padding-right: 20px;
+    }
+
+    .h-hero {
+        font-size: 40px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+
+    .p-hero {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .h-section {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .p-section {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 15px;
+    }
+
+    .section-title {
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 15px;
+        font-family: "RocGrotesk-Regular", sans-serif;
+    }
+
+    .h-slider {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 20px 0;
+    }
+
+    .p-slider {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .contact-form input {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .contact-form select {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .contact-form textarea {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .contact-links, .footer-text {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .slide-content {
+        padding: 10px;
+        width: 300px;
+    }
+
+    .p-y-section {
+        padding: 50px 20px;
+    }
+
+    .p-x-155 {
+        padding: 0 5px;
+    }
 }
